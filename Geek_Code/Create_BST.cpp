@@ -85,7 +85,10 @@ int main()
     
     //Reading inout file & inserting into BST
     while(ip_file >> data)
+    {
         root=obj.insert(root,data);
+       // cout<<"%d<<root->data;
+    }
 
      
 
